@@ -1,0 +1,54 @@
+@use "../base/reset.scss" as *;
+
+.ship {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+.ship i {
+  font-size: 2.4rem;
+}
+.ship h1 {
+  margin-left: 20px;
+}
+
+.list {
+  padding-top: 20px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+
+.add-New-button {
+  padding: 3rem;
+  height: 46vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.add-New-button p {
+  color: black;
+  background-color: #e7e7e7;
+  width: 90%;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2rem;
+}
+.add-New-button button {
+  width: 90%;
+  background-color: black;
+  color: white;
+  border-radius: 2rem;
+  border: none;
+  padding: 1rem;
+}
+
+.circle-input {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}

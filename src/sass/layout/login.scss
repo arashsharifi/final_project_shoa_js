@@ -1,0 +1,104 @@
+@use "../base/reset.scss" as *;
+
+.header-Arrow {
+  font-size: 3.1rem;
+  padding: 1.5rem;
+}
+
+.header-Arrow a i:hover {
+  box-shadow: inset;
+}
+.warpper-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.header-main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.logo {
+  width: 100%;
+  height: 270px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  text-align: center;
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+.form-container {
+  width: 80%;
+
+  font-size: 1.6rem;
+  height: 47vh;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.input-boxes {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+.input-item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  color: #6c757d;
+  background-color: #f3f0f0;
+  padding: 0.5rem;
+  margin: 0 2.2rem;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  &:hover {
+    border: 2px solid black;
+    i {
+      color: black;
+    }
+  }
+}
+.input-item input {
+  width: 90%;
+  height: 2.5rem;
+  margin-left: 1rem;
+  background-color: #f3f0f0;
+}
+.check-box-btn {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 2rem;
+  align-items: center;
+
+  height: 30vh;
+}
+.check-box-btn input {
+  width: 20px;
+  height: 20px;
+  margin-right: 1rem;
+}
+.check-box-btn button {
+  width: 90%;
+  background-color: #6f7174;
+  padding: 0.5rem;
+  border-radius: 3rem;
+  border: none;
+  color: #f3f0f0;
+  margin-bottom: 3rem;
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <div class="wrapper-shiping-page1-peyment">
+      <div class="ship">
+        <a href="./shoppingAddress.html"><i class="bi bi-arrow-left"></i></a>
+        <h1>Shipping Address</h1>
+      </div>
+      <div class="list">
+        <div class="home-shipping">
+          <div class="Payment-fildes">
+            <div class="left-side-payment">
+              <i class="bi bi-wallet2"></i>
+              <h3>my wallet</h3>
+            </div>
+          </div>
+          <div class="rigth-side-payment">
+            <input type="checkbox" />
+          </div>
+        </div>
+        <div class="home-shipping">
+          <div class="Payment-fildes">
+            <div class="left-side-payment">
+              <img
+                class="info-pepal"
+                src="../image/peypal-removebg-preview.png"
+                alt="noot"
+              />
+              <h3>paypal</h3>
+            </div>
+          </div>
+          <div class="rigth-side-payment">
+            <input type="checkbox" />
+          </div>
+        </div>
+        <div class="home-shipping">
+          <div class="Payment-fildes">
+            <div class="left-side-payment">
+              <img
+                class="info-pepal"
+                src="../image/google-removebg-preview.png"
+                alt="noot"
+              />
+              <h3>Google Pay</h3>
+            </div>
+          </div>
+          <div class="rigth-side-payment">
+            <input type="checkbox" />
+          </div>
+        </div>
+        <div class="home-shipping">
+          <div class="Payment-fildes">
+            <div class="left-side-payment">
+              <img
+                class="info-apple"
+                src="../image/apple-removebg-preview.png"
+                alt="noot"
+              />
+              <h3>Apple</h3>
+            </div>
+          </div>
+          <div class="rigth-side-payment">
+            <input type="checkbox" />
+          </div>
+        </div>
+        <div class="home-shipping">
+          <div class="Payment-fildes">
+            <div class="left-side-payment">
+              <img
+                class="info-apple"
+                src="../image/marter-removebg-preview.png"
+                alt="noot"
+              />
+              <h3>MasterCart</h3>
+            </div>
+          </div>
+          <div class="rigth-side-payment">
+            <input type="checkbox" />
+          </div>
+        </div>
+
+        <div class="add-New-button-chooose">
+          <button id="submitDataOrder">confrim payment</button>
+        </div>
+      </div>
+    </div>
+    <div id="modal-pyemane" class="modal-pyemane d-none">
+      <img src="../image/ordersuccess.png" alt="noot" />
+      <h1>order successful</h1>
+      <p>you have successfully mode order</p>
+      <button class="btn btn-dark">view order</button>
+      <a href="./order.html" class="btn btn-secondary">view E-receipt</a>
+    </div>
+    <script src="./script/payment.js" type="module"></script>
+  </body>
+</html>

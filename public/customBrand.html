@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+  </head>
+  <body>
+    <div class="warpper-custom">
+      <div class="carusel-custom">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div id="carousel-container" class="col-12">
+              <div
+                id="carouselExampleFade"
+                class="carousel slide carousel-fade h-75"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="../image/testemage/44-removebg-preview.png"
+                      class="info-custom d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="../image/testemage/adzero-orange.jpg"
+                      class="info-custom d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="../image/testemage/ultra-green.jpg"
+                      class="info-custom d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleFade"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleFade"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="name-custom-brand">
+        <h1 class="name-custom-brand-title" id="name-custom-brand-title">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+        </h1>
+        <i class="bi bi-heart"></i>
+      </div>
+      <div class="race-sole">
+        <div class="sold">
+          <span id="sold">4700</span>
+          <p>sold</p>
+        </div>
+        <div class="rance">
+          <span><i class="bi bi-star-half"></i></span>
+          <p id="rate">4.3</p>
+          <p>(5.389 reviews)</p>
+        </div>
+      </div>
+      <div class="description-custom">
+        <h2>Decription</h2>
+        <p id="dic">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum
+          asperiores ad necessitatibus ut tempore.
+        </p>
+      </div>
+      <div class="box-size-color-custom">
+        <div class="size-custum">
+          <p>Size</p>
+          <div class="sizes-custom">
+            <span class="active-size" id="firstSize">40</span>
+            <span id="seconsSize">41</span>
+            <span id="therdSize">42</span>
+          </div>
+        </div>
+        <div class="color-custum">
+          <p>Color</p>
+          <div class="colors-custom">
+            <span id="item-1" class="c-item"></span>
+            <span id="item-2" class="c-item"></span>
+            <span id="item-3" class="c-item"></span>
+          </div>
+        </div>
+      </div>
+      <div class="quantity-custom">
+        <p>Quantity</p>
+        <div>
+          <button class="btn" id="low-off">-</button>
+          <span id="qua">0</span>
+          <button class="btn" id="Increase">+</button>
+        </div>
+      </div>
+      <div class="add-to-cart">
+        <div class="price-custom">
+          <p>total price</p>
+          <span
+            ><i class="bi bi-currency-dollar"></i>
+            <span id="total">000</span>.00</span
+          >
+        </div>
+        <button id="subtoCart">
+          <i class="bi bi-bag-fill"></i>add to cart
+        </button>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script/custombrand.js" type="module"></script>
+  </body>
+</html>

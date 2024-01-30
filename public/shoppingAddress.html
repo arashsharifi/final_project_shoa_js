@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <div class="wrapper-shopping">
+      <div class="checkout-shopping">
+        <div class="left-side-shopping">
+          <a href="./myCart.html"><i class="bi bi-arrow-left"></i></a>
+          <p>Checkout</p>
+        </div>
+        <div class="rigth-side-shopping">
+          <img src="../image/top-more-removebg-preview.png" alt="noot" />
+        </div>
+      </div>
+      <h1>shipping Address</h1>
+      <div class="home-shipping">
+        <div class="location-logo">
+          <div>
+            <a href="./shipping.html"><i class="bi bi-geo-alt-fill"></i></a>
+          </div>
+        </div>
+        <div class="txt-shipping">
+          <h3>Home</h3>
+          <div id="address-user">address no body</div>
+        </div>
+        <div class="edit-shipping">
+          <i class="bi bi-pen-fill"></i>
+        </div>
+      </div>
+      <h2>order List</h2>
+      <div id="container-product-shopping" class="container-product-shopping">
+        <div class="product-mycart-shopping">
+          <div class="img-mycart-shopping">
+            <img src="../image/testemage/44.jpg" alt="nooot" />
+          </div>
+          <div class="info-mycart-shooing">
+            <div class="name-info-mycart">
+              <h3 class="name">Lorem ipsum dolor sit amet.</h3>
+            </div>
+            <div class="box-color-size-shopping">
+              <span class="colorshow-shopping"></span>
+              <p class="txt-color">blue</p>
+              <p>siz=<span>45</span></p>
+            </div>
+            <div class="total-quntity-mycart-shopping">
+              <p>
+                <i class="bi bi-currency-dollar"></i
+                ><span id="total-amount">585</span>.00<span></span>
+              </p>
+
+              <div class="total-price-mycart-shopping">
+                <span id="qua-mycart">0</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="choose-shipping">
+        <h2>Choose Shipping</h2>
+        <div class="car-shipping">
+          <div class="left-side-choose">
+            <i class="bi bi-truck"></i>
+            <p>chooose shiping type</p>
+          </div>
+          <div class="left-side-choose">
+            <a href="./choose.html">
+              <i class="bi bi-chevron-compact-right"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div class="promo">
+        <h2>Promo code</h2>
+        <div class="code-shipping">
+          <input type="text" placeholder="Enter Promo Code" />
+          <span>+</span>
+        </div>
+      </div>
+      <div class="shipping-container">
+        <div class="amount">
+          <p>Amount</p>
+          <p>
+            <i class="bi bi-currency-dollar"></i
+            ><span id="total-amount-shopping">585</span>.00<span></span>
+          </p>
+        </div>
+        <div class="shipping">
+          <p>shipping</p>
+          <p>--</p>
+        </div>
+        <div class="total">
+          <p>total</p>
+          <p>--</p>
+        </div>
+      </div>
+
+      <button id="continue-btn" class="continue-btn">
+        Continue to Payment<i class="bi bi-arrow-right"></i>
+      </button>
+    </div>
+    <script src="./script/shoppingAddress.js" type="module"></script>
+  </body>
+</html>

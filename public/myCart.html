@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <div class="warpper-mycart">
+      <div class="fake-search">
+        <div class="left-side-mycart">
+          <div class="logo-mycart">
+            <img src="../image/logo.png" alt="noot" />
+          </div>
+          <h1>my cart</h1>
+        </div>
+        <i class="bi bi-search"></i>
+      </div>
+      <div id="modal-container" class="modal-container d-none">
+        <div class="title-modal-mycart">
+          <h2>Rmove From Cart?</h2>
+        </div>
+        <div class="prodoct-container-modal" id="prodoct-container-modal"></div>
+        <div class="delete-cansel-mycart">
+          <button id="cansel-btn-mycart" class="cancel">cancel</button>
+          <button id="remove-prodict-mycart" class="remove">Yes.Remove</button>
+        </div>
+      </div>
+      <div id="product-mycart-container" class="product-mycart-container">
+        <!-- <div class="product-mycart">
+          <div class="img-mycart">
+            <img
+              class="img-info-mycart"
+              src="../image/testemage/44.jpg"
+              alt="nooot"
+            />
+          </div>
+          <div class="info-mycart">
+            <div class="name-info-mycart">
+              <h3 class="name">Lorem ipsum dolor sit amet.</h3>
+              <i class="bi bi-trash3"></i>
+            </div>
+            <div class="box-color-size">
+              <span class="colorshow"></span>
+              <p class="txt-color">blue</p>
+              <p>siz=<span>45</span></p>
+            </div>
+            <div class="total-quntity-mycart">
+              <p>
+                <i class="bi bi-currency-dollar"></i
+                ><span class="total">105</span><span>.00</span>
+              </p>
+
+              <div class="total-price-mycart">
+                <button class="btn low-off-mycart" id="low-off-mycart">
+                  -
+                </button>
+                <span id="qua-mycart">0</span>
+                <button class="btn Increase-mycart" id="Increase-mycart">
+                  +
+                </button>
+              </div>
+            </div>
+          </div>
+        </div> -->
+      </div>
+      <!-- home css classs -->
+
+      <div class="total-price-container-mycart">
+        <div class="total-mycart">
+          <p class="to">total price</p>
+          <p class="to1">
+            <i class="bi bi-currency-dollar"></i>
+            <span id="totalpirce-my">500</span><span>.00</span>
+          </p>
+        </div>
+        <button id="checkout-btn">
+          checkout <i class="bi bi-arrow-right"></i>
+        </button>
+      </div>
+      <div class="icon-footer-mycart">
+        <div>
+          <a href="./home.html">
+            <i class="bi bi-house-door"></i>
+            <p>home</p>
+          </a>
+        </div>
+        <div>
+          <a href="./myCart.html">
+            <i class="bi bi-bag"></i>
+            <p>cart</p>
+          </a>
+        </div>
+
+        <div>
+          <a href="#">
+            <i class="bi bi-cart"></i>
+            <p>order</p>
+          </a>
+        </div>
+        <div>
+          <a href="#">
+            <i class="bi bi-wallet"></i>
+            <p>wallet</p>
+          </a>
+        </div>
+        <div>
+          <a href="#">
+            <i class="bi bi-person"></i>
+            <p>profile</p>
+          </a>
+        </div>
+      </div>
+    </div>
+    <script src="./script/mycart.js" type="module"></script>
+  </body>
+</html>
